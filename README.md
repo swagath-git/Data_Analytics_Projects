@@ -61,6 +61,9 @@ Jupyter Notebook
 - Create heatmap visualization
 - Build predictive model
 
+
+---
+
 # 2. Customer Spending & Tipping Behavior Analysis Using Python
 
 # Project Overview
