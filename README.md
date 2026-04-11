@@ -29,17 +29,17 @@ Jupyter Notebook
 ## 1. Data Loading
 - Loaded dataset using Pandas
 
-# 2. Data Preparation
+## 2. Data Preparation
 - Converted date column into month_year format
 - Cleaned and structured dataset
 
 # 3. Exploratory Data Analysis
-# Loan Trend Over Time
+## Loan Trend Over Time
 - Analyzed total loan amount issued per month
   
 # State-wise Loan Analysis
 -  loan distribution across states
--
+
 # Categorical Analysis
 - Loan Term distribution
 - Employment Length distribution
