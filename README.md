@@ -26,7 +26,7 @@ Seaborn
 Jupyter Notebook
 
 # Project Workflow
-# 1. Data Loading
+## 1. Data Loading
 - Loaded dataset using Pandas
 
 # 2. Data Preparation
