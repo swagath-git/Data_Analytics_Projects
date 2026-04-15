@@ -33,7 +33,7 @@ Jupyter Notebook
 - Converted date column into month_year format
 - Cleaned and structured dataset
 
-# 3. Exploratory Data Analysis
+## 3. Exploratory Data Analysis
 ### Loan Trend Over Time
 - Analyzed total loan amount issued per month
   
