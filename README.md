@@ -1,15 +1,15 @@
 # 1. Bank Loan Data Analysis Project
 
-# Overview
+### Overview
 This project focuses on analyzing bank loan data to understand loan distribution, trends over time, and category-based patterns using exploratory data analysis techniques.
 
-# Objectives
+### Objectives
 Analyze loan distribution across different states
 Study loan trends over time
 Explore categorical features like employment length, loan purpose, and home ownership
 Generate insights using visualizations
 
-# Dataset Features
+### Dataset Features
 Loan Amount
 Address State
 Loan Term
@@ -18,7 +18,7 @@ Loan Purpose
 Home Ownership
 Issue Date
 
-# Tools Used
+### Tools Used
 Python
 Pandas
 Matplotlib
@@ -34,29 +34,29 @@ Jupyter Notebook
 - Cleaned and structured dataset
 
 # 3. Exploratory Data Analysis
-## Loan Trend Over Time
+### Loan Trend Over Time
 - Analyzed total loan amount issued per month
   
-# State-wise Loan Analysis
+### State-wise Loan Analysis
 -  loan distribution across states
 
-# Categorical Analysis
+### Categorical Analysis
 - Loan Term distribution
 - Employment Length distribution
 - Loan Purpose distribution
 - Home Ownership distribution
 
-# Visualizations Used
+### Visualizations Used
 - Line plot (loan trends over time)
 - Bar charts (state-wise & categorical analysis)
   
-# Key Insights
+### Key Insights
 - Loan disbursement varies across different states
 - Certain states contribute more to total loan amount
 - Loan purposes and employment length show clear patterns
 - Loan trends change over time (monthly variation observed)
 
-# Future Improvements
+### Future Improvements
 - Add correlation analysis
 - Create heatmap visualization
 - Build predictive model
@@ -69,20 +69,20 @@ Jupyter Notebook
 # Project Overview
 This project focuses on exploratory data analysis using Python and Seaborn to uncover patterns, relationships, outliers and trends from the dataset. Multiple statistical visualizations were generated to support data-driven decision-making.
 
-# Objective
+### Objective
 To perform end-to-end EDA using Python and visually communicate insights through high-quality charts and graphs.
 
-# Dataset
+### Dataset
 The dataset used contains multiple numerical and categorical variables suitable for exploratory visual analysis.
 
-# Tools & Libraries
+### Tools & Libraries
 1. Python
 2. Pandas
 3. NumPy
 4. Seaborn
 5. Matplotlib
 
-# Visualizations & Analysis Performed
+### Visualizations & Analysis Performed
 The notebook includes:
 1. Distribution plots
 2. Count plots
@@ -91,7 +91,7 @@ The notebook includes:
 5. Correlation heatmap
 6. Pair plot for multi-variable relationships
 
-# Key Insights
+### Key Insights
 1. Visual patterns highlight trends across numerical features.
 2. Correlation heatmap reveals strong and weak variable relationships.
 3. Distribution plots helped detect skewness and outliers.
