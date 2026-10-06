@@ -1,5 +1,4 @@
-<img width="1900" height="959" alt="image" src="https://github.com/user-attachments/assets/51c6ae5d-dfec-4c8e-9187-11efd90a5d1e" /># Global Cancer Patient Analysis 2015–2024
-
+# Global Cancer Patient Analyst 2015 - 2024
 # Project Overview
 
 This project explores a global cancer patient dataset containing **50,000 patient records from 2015 to 2024**.
