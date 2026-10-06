@@ -1,0 +1,173 @@
+<img width="1900" height="959" alt="image" src="https://github.com/user-attachments/assets/51c6ae5d-dfec-4c8e-9187-11efd90a5d1e" /># Global Cancer Patient Analysis 2015–2024
+
+# Project Overview
+
+This project explores a global cancer patient dataset containing **50,000 patient records from 2015 to 2024**.
+The main goal of this analysis is to understand patterns in cancer patients, risk factors, cancer severity, survival years, treatment costs, and differences across countries, cancer types, and cancer stages.
+The project starts with Exploratory Data Analysis (EDA) and then moves into statistical analysis and machine learning to identify important factors related to cancer severity and survival.
+
+> **Note:** This project is intended for data analysis and learning purposes. The findings should not be interpreted as medical or clinical conclusions.
+
+---
+
+## Objectives
+
+The analysis focuses on:
+
+* Understanding the overall characteristics of the dataset
+* Exploring patient age and gender distribution
+* Comparing patients across different countries
+* Analyzing cancer types and cancer stages
+* Studying lifestyle and environmental risk factors
+* Understanding factors related to cancer severity
+* Analyzing early-stage diagnosis across cancer types
+* Identifying important predictors of cancer severity
+* Predicting cancer severity using Random Forest
+* Exploring factors related to survival years
+* Analyzing treatment costs across demographics and countries
+* Testing the relationship between treatment cost and survival
+* Examining treatment cost and severity across cancer stages
+* Studying the interaction between smoking and genetic risk
+
+---
+
+## Analysis Performed
+
+### 1. Exploratory Data Analysis
+
+The project begins by examining:
+
+* Dataset structure and information
+* Missing values
+* Duplicate records
+* Numerical and categorical variables
+* Age distribution
+* Gender distribution
+* Country distribution
+* Cancer type distribution
+* Cancer stage distribution
+* Treatment cost distribution
+
+### 2. Risk Factor Analysis
+
+The following risk factors were analyzed:
+
+* Genetic Risk
+* Air Pollution
+* Alcohol Use
+* Smoking
+* Obesity Level
+
+Their relationship with `Target_Severity_Score` was studied using regression analysis.
+
+### 3. Cancer Stage Analysis
+The project compares cancer stages from **Stage 0 to Stage IV** and examines the proportion of early-stage diagnoses (`Stage 0` and `Stage I`) across different cancer types.
+
+### 4. Correlation Analysis
+Pearson and Spearman correlations were used to study relationships between:
+
+* Age
+* Genetic Risk
+* Air Pollution
+* Alcohol Use
+* Smoking
+* Obesity Level
+* Survival Years
+* Target Severity Score
+
+### 5. Machine Learning
+Random Forest Regression was used for:
+
+#### Target Severity Score
+A Random Forest Regressor was trained to predict `Target_Severity_Score`.
+Feature importance was also analyzed to understand which variables contributed most to the model.
+According to the analysis, the most important features included:
+
+1. **Smoking**
+2. **Genetic Risk**
+3. **Alcohol Use**
+4. **Air Pollution**
+5. **Obesity Level**
+
+#### Survival Years
+A second Random Forest Regression model was developed to analyze `Survival_Years`.
+`GridSearchCV` was used to search for better Random Forest hyperparameters.
+
+---
+
+## Statistical Analysis
+
+### Treatment Cost vs Survival
+The project tested whether higher treatment costs were associated with longer survival.
+Both Pearson and Spearman correlation tests were performed.
+The analysis found correlations extremely close to zero:
+
+* Pearson correlation: approximately **-0.00043**
+* Spearman correlation: approximately **-0.00045**
+* p-values: approximately **0.92**
+
+Based on this dataset, there was no statistically significant relationship between treatment cost and survival years.
+
+### Cancer Stage Analysis
+ANOVA was used to test whether cancer stage was associated with differences in treatment cost and severity.
+
+The analysis found:
+
+* Treatment Cost vs Cancer Stage: **p = 0.4260**
+* Target Severity Score vs Cancer Stage: **p = 0.6623**
+
+Both results were above the 0.05 significance level.
+
+### Smoking × Genetic Risk
+An interaction model was used to examine whether genetic risk changes the effect of smoking on cancer severity.
+
+The analysis found that:
+
+* Smoking had a statistically significant effect on severity.
+* Genetic Risk had a statistically significant effect on severity.
+* The interaction between Smoking and Genetic Risk was not statistically significant in the analysis.
+
+---
+
+## Key Insights
+
+Some of the main observations from the analysis:
+
+* The dataset contains a relatively balanced representation across genders and countries.
+* Cancer types are distributed fairly evenly in the dataset.
+* Cancer stages are also relatively balanced, with Stage II being the most common.
+* Genetic Risk shows a positive relationship with cancer severity.
+* Smoking shows a strong relationship with cancer severity and had the highest Random Forest feature importance.
+* Air Pollution and Alcohol Use also show relationships with severity.
+* Treatment cost does not show a meaningful correlation with survival years in this dataset.
+* Higher cancer stage did not show a statistically significant difference in average treatment cost or target severity score based on the ANOVA tests performed.
+
+---
+
+## Tools & Technologies
+
+* **Python**
+* **Pandas**
+* **NumPy**
+* **Matplotlib**
+* **Seaborn**
+* **SciPy**
+* **Scikit-learn**
+* **Statsmodels**
+* **Jupyter Notebook**
+---
+
+## Future Improvements
+
+Possible improvements for this project include:
+
+* Building an interactive Power BI dashboard
+* Creating a more detailed survival analysis
+* Comparing additional machine learning models
+* Performing cross-validation and model evaluation
+* Improving feature engineering
+* Adding more statistical tests
+* Creating an interactive web-based visualization
+
+---
+ If you find this project useful, feel free to explore the notebook and share your feedback.
